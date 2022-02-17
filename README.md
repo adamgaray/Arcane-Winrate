@@ -1,6 +1,6 @@
 # Arcane-Winrate
 
-This is a simple twitter bot created in Python and deployed as an AWS Lambda function. Every day at 10:00 EST, it posts the combined winrate of champs from Arcane in the LCS, LEC, LCK, and LPL.
+This is a simple twitter bot created in Python and deployed as an AWS Lambda function. Every day at 10:00 EST, it posts the combined winrate of champs from the hit Netflix show Arcane in the LCS, LEC, LCK, and LPL.
 
 https://twitter.com/arcaneeeeeeeeee
 
