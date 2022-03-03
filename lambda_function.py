@@ -43,8 +43,8 @@ def get_tweet():
                 rates[1][index] += gp
                 rates[2][index] += w
 
-    winrate = round ( sum(rates[2]) / sum(rates[1]), 4 ) * 100                                          # calculate winrate
-    return 'Arcane champion winrate is ' + str(winrate) + '% BatChest'
+    winrate = (sum(rates[2]) / sum(rates[1])) * 100                                                     # calculate winrate
+    return "Arcane champion winrate is {:.2f}% BatChest".format(winrate)
 
 def lambda_handler(event, context):
     print("Get credentials")
